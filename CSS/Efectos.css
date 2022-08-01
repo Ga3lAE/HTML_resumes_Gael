@@ -1,0 +1,44 @@
+/*hoover, sirve para que cuando se pase el
+cursor por el elemento este sufra un cambio*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.papa{
+    width: 50rem;
+    height: 30rem;
+    border: double black 5px ;
+    display: flex;
+    align-items: center ;
+    position: relative;
+    overflow: hidden;
+}
+.papa img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.Texto {
+    font-size: 35px ;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #91c788;
+    opacity: 75%;
+    transition: all 1s;
+    top: 100%;
+}
+.papa:hover .Texto{
+    top: 0%;
+}
+/*Focus: hace que los estilos cambien 
+cuando estes en un cierto enlace*/
+/*Active: hace que al hacer click,
+ los estilos cambien (pero solo minetras
+ el click esta activo) */

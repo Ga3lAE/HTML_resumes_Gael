@@ -1,0 +1,31 @@
+body{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    --color: color #FCDEC0;
+}
+body{
+    --bordes: 
+}
+.Sec div:first-child{
+    color: #7D5A50;
+}.Sec div:last-child{
+    color: #B4846C;
+}.Sec div:nth-child(4){
+    color: #E5B299;
+    /*valor generico
+    valor cualquiera.
+    2n: pares
+    2n-1: impares
+    .
+    .
+    .
+    */
+}
+.Cuad{
+    width: 10rem;
+    height: 10rem;
+    background-color: var(--color);
+}
+
+

@@ -1,0 +1,97 @@
+body{
+    background-color: #424642;
+}
+h1{
+    color: #310b0b;
+}
+h2{
+    color :#f3f4ed;
+    font-size: 12px;
+    font-family: halloween;
+    text-align: center;
+    font-style: oblique;
+    text-decoration: underline;
+}
+.a{
+    color: #f8a488;
+}
+.b{
+    color: #5aa897;
+}
+.c{
+    color: #f8f5f1;
+}
+.d{
+    color: #ff8882;
+}
+.Separacion{
+   font-size: 7em;
+}
+.caja{
+    width: 5em ; /*ancho*/
+    height: 5em; /*alto*/
+    background-color: #536162;
+    
+    
+    margin: 2em;
+    border-right: dotted    5em #d8e3e7;
+    border-bottom: dashed 13px #bdd2b6;
+    border-top: solid 22px #a2b29f;
+    border-left: double 23px #798777;
+    padding: 2em;
+}
+/*  
+    padding, es el margen
+    dentro del cuadro
+    margin, es el margen
+    border, es el borde
+    */
+/*
+    Top, arriba.
+    Botton, abajo.
+    Left, izquierda.
+    Right, derecha.
+*/
+.Caja-sec{
+    background-color: black;
+    color: blanchedalmond;
+    width: 22em;
+    height: 11em;
+    overflow: auto;
+}
+/*El overflow  es una propiedad que controla 
+el desbordamiento (cuando contenido sale de 
+la caja).
+ -Auto, calcula cuando se necesita una barra
+  de desplazazmiento.
+ - scroll, te da 2 barras una vertical y una
+  horizontal par acada uno de los ejes
+   - overflow-y, para el eje y.
+   - overflow-x, para el eje x  
+ - hidden, Oculta el desbordamiento.
+*/
+.Img{
+    width: 100%;
+    height: 100em;
+    background-image: url(../Imagenes/thumb-1920-1055056.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+/*El flexbox es la alineacion de los cuadros
+este tiene cuatro elementos item, eje princiapl, 
+eje secundario y contenedor*/
+.Contenedor{
+    background-color: blue;
+    
+}
+/*(Poscionamiento Relative)Nos permite mover la caja con
+ respecto a sí misma
+ (Poscicionamiento absoluto)Nos pdermite mover con
+  respecto a su etiquet apadre.
+  (Poscicinamiento Estatic) NOs se poude mover
+(Fixet) Se muebve con respecto al viewport, y ademas se
+ queda fijo
+  /* el "Z index" permite sobreponer a ciertas capas
+  poniendo el numero mayor por delante*/

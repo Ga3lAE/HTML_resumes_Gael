@@ -1,0 +1,19 @@
+div{
+    height: 10rem; width: 80vh;
+    background-color: blue;
+}
+img{
+    width:45rem;
+}
+@media screen and (min-width:600px) and (max-width:950px){
+    div{
+        background-color: cadetblue;
+    }
+    img{
+        width: 12rem;
+    }
+}@media screen and (min-width:800px){
+    div{
+        background-color: green;
+    }
+}

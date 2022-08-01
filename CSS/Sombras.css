@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(#caf7e3, #f6dfeb);
+}
+.Tit{
+    color: #0a1d37;
+    font-size: 60px;
+    text-shadow: 2px 2px 15px #ffbd9b;
+}
+.enl{
+    font-size: 50px;
+    color: #346751;
+}
+/*______-shadow: (movimiento en x) (movimiento en y)
+                (difumindao)(color)*/
+
+/*Bloore, la difuminacion  */
+.Caj_Som{
+    background-color: #b2ab8c;
+    width: 100px;
+    height: 100px;
+    transition: 1,5s;
+}                
+.Caj_Som:hover{
+    box-shadow: 7px 7px 15px #47597e;
+}
+/*Gradientes: te permite cambiardesde una
+de un color hasta otra en el viewport
+    Lineal / Radial & Conico*/

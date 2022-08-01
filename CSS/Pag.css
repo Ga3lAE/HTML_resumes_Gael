@@ -1,0 +1,17 @@
+header{
+    background-color: blueviolet;
+}
+nav{
+    width: 100%; /*ancho/largo*/
+    height: 20px;/*alto*/
+    background-color: blue;
+}
+.Index{
+    color: brown;
+    font-size: 35px;
+    height: 10em;
+    background-color: chocolate;
+}
+.Mas{
+    background-color: green;
+}

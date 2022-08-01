@@ -1,0 +1,10 @@
+body{
+    background-color:grey;
+}
+.Img{
+    width: 100vh;
+}
+.Cont_Ext{
+    width: 90%;
+    height: 40em;
+}

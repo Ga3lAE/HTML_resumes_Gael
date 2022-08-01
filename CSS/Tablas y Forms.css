@@ -1,0 +1,18 @@
+body{
+    background-color: #B5EAEA;
+}   
+table{
+    border:double 12px #9B72AA;
+    font-size: 40px;
+}
+td{
+    border: solid 1px ;
+    text-align: center;
+    border-color: #C6B4CE;
+}
+.Second{
+    width: 5em;
+}
+.First{
+    width: 6em ;
+}

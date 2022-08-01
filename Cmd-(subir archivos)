@@ -1,0 +1,11 @@
+Entrar a "CMD" o a "Git CMD".
+Ingresar a la carpeta del archivo Index a subir.
+Iniciar con un "git initial".
+Escribir "git add .".
+Luego añadir un "git commit -m "(un nombre del estado del archivo)""
+Crear un repositorio e "GitHub"
+y copiar los comandos despues del "git commit"
+para navegar entre archivos, se usan los comandos:
+1) cd, para movernos entre carpetas
+2)dir, listar carpetas y archivos
+3)cls, limpiar nuestro terminal

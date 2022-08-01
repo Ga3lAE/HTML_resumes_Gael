@@ -1,0 +1,47 @@
+/*se le dice "keyframes", a:
+ un conjunto de estados*/
+ body{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    
+ }
+ main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ /*se necesitan lo siguientes elementos
+    animation-name: nombre de la nimaciom;
+    animation-duration: duracion de la animacion;
+    animation-iteration-count: cant. de veces que se repite;
+    animation-direction: ;
+ */
+ .Cuad{
+      width: 15rem;
+      height: 15rem;
+      background-color: #402218;
+     
+      animation-name: mov;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-direction:alternate;
+
+
+ }
+
+ @keyframes mov{
+    0%{
+        background-color: #865439;
+    }
+    50%{
+        background-color: #C68B59;
+    }
+    100%{
+        background-color: #D7B19D;
+    }
+
+
+ }
